@@ -6,7 +6,7 @@ public class GuessNumber {
 
     public int genarateRandomNumber(int start, int end){
         Random randomGenerator = new Random();
-        int number = randomGenerator.nextInt(end) + 1;
+        int number = randomGenerator.nextInt(end) + start;
         return number;
     }
 
@@ -25,6 +25,7 @@ public class GuessNumber {
         }
         return msg;
     }
+    
     public boolean isExcessCount(int count) {
         return count >= COUNT;
     }
@@ -33,7 +34,7 @@ public class GuessNumber {
         System.out.println("请输入猜测的数字:");
         GuessNumber guessNumber = new GuessNumber();
         int count = 0;
-        int random = guessNumber.genarateRandomNumber(1, 100);
+        int random = guessNumber.genarateRandomNumber(1, 10);
         Scanner sc = new Scanner(System.in);
 
         while (true) {
@@ -44,8 +45,7 @@ public class GuessNumber {
             if(msg == "猜中啦") {
                 break;
             }
-            boolean isExccessCount = guessNumber.isExcessCount(count);
-            if(isExccessCount) {
+            if(guessNumber.isExcessCount(count)) {
                 System.out.println("你已经超过猜测次数，请再接再厉哦");
                 break;
             }
