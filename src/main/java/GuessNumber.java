@@ -1,6 +1,8 @@
 import java.util.Random;
 
 public class GuessNumber {
+    public static int COUNT = 5;
+
     public int genarateRandomNumber(int start, int end){
         Random randomGenerator = new Random();
         int number = randomGenerator.nextInt(end) + 1;
@@ -22,5 +24,7 @@ public class GuessNumber {
         }
         return msg;
     }
-
+    public boolean isExcessCount(int count) {
+        return count >= COUNT;
+    }
 }
