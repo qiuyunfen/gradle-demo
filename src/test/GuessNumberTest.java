@@ -26,8 +26,13 @@ public class GuessNumberTest {
     }
 
     @Test
-    public void compareNumberTest() {
+    public void compareNumberSmallTest() {
         String msg = guessNumber.compareNumber(3, 4);
         assertSame(msg, "猜小啦");
+    }
+    @Test
+    public void compareNumberBigTest() {
+        String msg = guessNumber.compareNumber(5, 4);
+        assertSame(msg, "猜大啦");
     }
 }
