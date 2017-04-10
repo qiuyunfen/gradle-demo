@@ -11,7 +11,11 @@ public class GuessNumber {
         return count + 1;
     }
 
-/*    public String compareNumber(int userNumber, int randomNumber) {
-        String msg =
-    }*/
+    public String compareNumber(int userNumber, int randomNumber) {
+        String msg = "";
+        if(userNumber < randomNumber) {
+            msg = "猜小啦";
+        }
+        return msg;
+    }
 }

@@ -28,6 +28,6 @@ public class GuessNumberTest {
     @Test
     public void compareNumberTest() {
         String msg = guessNumber.compareNumber(3, 4);
-        assertSame(msg, "猜小了");
+        assertSame(msg, "猜小啦");
     }
 }
