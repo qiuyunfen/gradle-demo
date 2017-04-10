@@ -17,7 +17,10 @@ public class GuessNumber {
             msg = "猜小啦";
         } else if(userNumber > randomNumber) {
             msg = "猜大啦";
+        } else {
+            msg = "猜中啦";
         }
         return msg;
     }
+
 }

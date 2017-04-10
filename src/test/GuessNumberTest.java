@@ -41,4 +41,9 @@ public class GuessNumberTest {
         String msg = guessNumber.compareNumber(4, 4);
         assertSame(msg, "猜中啦");
     }
+    @Test
+    public void isExcessCountTest() {
+        String msg = guessNumber.isExcessCount(11);
+        assertSame(msg, "已经超过猜测次数");
+    }
 }
