@@ -35,4 +35,10 @@ public class GuessNumberTest {
         String msg = guessNumber.compareNumber(5, 4);
         assertSame(msg, "猜大啦");
     }
+
+    @Test
+    public void compareNumberEqualTest() {
+        String msg = guessNumber.compareNumber(4, 4);
+        assertSame(msg, "猜中啦");
+    }
 }
