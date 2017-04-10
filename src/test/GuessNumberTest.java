@@ -44,6 +44,12 @@ public class GuessNumberTest {
     @Test
     public void isExcessCountTest() {
         boolean isExcessCount = guessNumber.isExcessCount(6);
-        assertSame(isExcessCount, true);
+        assertEquals(isExcessCount, true);
+    }
+
+    @Test
+    public void isExcessCountSmallTest() {
+        boolean isExcessCount = guessNumber.isExcessCount(4);
+        assertEquals(isExcessCount, false);
     }
 }

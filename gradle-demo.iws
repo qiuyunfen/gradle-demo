@@ -102,8 +102,8 @@
       <file leaf-file-name="GuessNumberTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/GuessNumberTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+            <state relative-caret-position="135">
+              <caret line="40" column="53" lean-forward="true" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#220#221#0" expanded="true" />
@@ -147,8 +147,8 @@
         <option value="$PROJECT_DIR$/src/test/java/HelloTest.java" />
         <option value="$PROJECT_DIR$/src/test/HelloTest.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/test/GuessNumberTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/GuessNumber.java" />
+        <option value="$PROJECT_DIR$/src/test/GuessNumberTest.java" />
       </list>
     </option>
   </component>
@@ -490,9 +490,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GuessNumberTest - 2017.04.10 at 15h 37m 18s.xml">
-      <configuration name="GuessNumberTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GuessNumberTest - 2017.04.10 at 15h 39m 09s.xml">
       <configuration name="GuessNumberTest" configurationId="JUnit" />
     </history-entry>
@@ -518,6 +515,9 @@
       <configuration name="GuessNumberTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="GuessNumberTest - 2017.04.10 at 16h 07m 39s.xml">
+      <configuration name="GuessNumberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GuessNumberTest - 2017.04.10 at 16h 09m 19s.xml">
       <configuration name="GuessNumberTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -627,8 +627,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/GuessNumberTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        <state relative-caret-position="135">
+          <caret line="40" column="53" lean-forward="true" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#220#221#0" expanded="true" />
