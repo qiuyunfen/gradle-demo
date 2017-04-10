@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.util.Scanner;
 
 public class GuessNumber {
     public static int COUNT = 5;
@@ -26,5 +27,28 @@ public class GuessNumber {
     }
     public boolean isExcessCount(int count) {
         return count >= COUNT;
+    }
+
+    public static void main(String[] args) {
+        System.out.println("请输入猜测的数字:");
+        GuessNumber guessNumber = new GuessNumber();
+        int count = 0;
+        int random = guessNumber.genarateRandomNumber(1, 100);
+        Scanner sc = new Scanner(System.in);
+
+        while (true) {
+            int userNum = sc.nextInt();
+            count = guessNumber.calCount(count);
+            String msg = guessNumber.compareNumber(userNum, random);
+            System.out.println(msg);
+            if(msg == "猜中啦") {
+                break;
+            }
+            boolean isExccessCount = guessNumber.isExcessCount(count);
+            if(isExccessCount) {
+                System.out.println("你已经超过猜测次数");
+                break;
+            }
+        }
     }
 }
