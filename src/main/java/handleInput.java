@@ -1,7 +1,5 @@
 import java.util.Scanner;
-/**
- * Created by qiuyf on 17-4-10.
- */
+
 public class handleInput {
     public static String INPUT_HINT = "请输入猜测的数字:";
     public static String GUESS_SUCCESS = "猜中啦";

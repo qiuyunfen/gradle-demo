@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edbc53cd-278d-47ec-a980-fa88dda4492d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/handleInput.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/gradle-demo/GuessNumber.class" afterPath="$PROJECT_DIR$/out/production/gradle-demo/GuessNumber.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/gradle-demo/GuessNumberTest.class" afterPath="$PROJECT_DIR$/out/test/gradle-demo/GuessNumberTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle-demo.ipr" afterPath="$PROJECT_DIR$/gradle-demo.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle-demo.iws" afterPath="$PROJECT_DIR$/gradle-demo.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/GuessNumber.java" afterPath="$PROJECT_DIR$/src/main/java/GuessNumber.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/handleInput.java" afterPath="$PROJECT_DIR$/src/main/java/handleInput.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/GuessNumberTest.java" afterPath="$PROJECT_DIR$/src/test/GuessNumberTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -107,27 +103,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="handleInput.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="handleInput.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/handleInput.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+            <state relative-caret-position="252">
+              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GuessNumberTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GuessNumberTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/GuessNumberTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="32" column="53" lean-forward="false" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+            <state relative-caret-position="314">
+              <caret line="52" column="10" lean-forward="true" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#204#205#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#1333#1334#0" expanded="true" />
-                <element signature="e#1367#1368#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -170,9 +162,9 @@
         <option value="$PROJECT_DIR$/src/test/java/HelloTest.java" />
         <option value="$PROJECT_DIR$/src/test/HelloTest.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/test/GuessNumberTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/GuessNumber.java" />
         <option value="$PROJECT_DIR$/src/main/java/handleInput.java" />
+        <option value="$PROJECT_DIR$/src/test/GuessNumberTest.java" />
       </list>
     </option>
   </component>
@@ -299,7 +291,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gradle-demo.ipr" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/springboot-demo-test" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -329,7 +321,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.handleInput">
+  <component name="RunManager" selected="JUnit.GuessNumberTest">
     <configuration default="false" name="GuessNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea" />
       <module name="gradle-demo" />
@@ -379,6 +371,27 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="gradle-demo" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="GuessNumberTest.shoule_return_count" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea" />
+      <module name="gradle-demo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GuessNumberTest" />
+      <option name="METHOD_NAME" value="shoule_return_count" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
@@ -755,16 +768,18 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.GuessNumberTest" />
       <item index="1" class="java.lang.String" itemvalue="Application.GuessNumber" />
       <item index="2" class="java.lang.String" itemvalue="Application.handleInput" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.GuessNumberTest.shoule_return_count" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.handleInput" />
-        <item index="1" class="java.lang.String" itemvalue="Application.GuessNumber" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.GuessNumberTest" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.GuessNumberTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.GuessNumberTest.shoule_return_count" />
+        <item index="2" class="java.lang.String" itemvalue="Application.handleInput" />
+        <item index="3" class="java.lang.String" itemvalue="Application.GuessNumber" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -796,17 +811,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491808849614</updated>
-      <workItem from="1491828017951" duration="3283000" />
+      <workItem from="1491828017951" duration="4755000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GuessNumberTest - 2017.04.10 at 15h 39m 49s.xml">
-      <configuration name="GuessNumberTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GuessNumberTest - 2017.04.10 at 15h 52m 52s.xml">
-      <configuration name="GuessNumberTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GuessNumberTest - 2017.04.10 at 15h 55m 14s.xml">
       <configuration name="GuessNumberTest" configurationId="JUnit" />
     </history-entry>
@@ -831,9 +840,15 @@
     <history-entry file="GuessNumberTest - 2017.04.10 at 16h 18m 53s.xml">
       <configuration name="GuessNumberTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GuessNumberTest - 2017.04.10 at 22h 17m 38s.xml">
+      <configuration name="GuessNumberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GuessNumberTest_shoule_return_count - 2017.04.10 at 22h 18m 00s.xml">
+      <configuration name="GuessNumberTest.shoule_return_count" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3283000" />
+    <option name="totallyTimeSpent" value="4755000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -858,9 +873,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30889237" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30889237" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37815976" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3775351" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19984627" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -951,10 +966,6 @@
           <caret line="32" column="53" lean-forward="false" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#1333#1334#0" expanded="true" />
-            <element signature="e#1367#1368#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1021,20 +1032,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/GuessNumberTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="32" column="53" lean-forward="false" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#1333#1334#0" expanded="true" />
-            <element signature="e#1367#1368#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GuessNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="530">
@@ -1047,9 +1044,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/handleInput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        <state relative-caret-position="252">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/GuessNumberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="52" column="10" lean-forward="true" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
