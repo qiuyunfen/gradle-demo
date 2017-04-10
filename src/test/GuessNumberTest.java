@@ -43,7 +43,7 @@ public class GuessNumberTest {
     }
     @Test
     public void isExcessCountTest() {
-        String msg = guessNumber.isExcessCount(11);
-        assertSame(msg, "已经超过猜测次数");
+        boolean isExcessCount = guessNumber.isExcessCount(6);
+        assertSame(isExcessCount, true);
     }
 }
