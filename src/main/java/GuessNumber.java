@@ -15,6 +15,8 @@ public class GuessNumber {
         String msg = "";
         if(userNumber < randomNumber) {
             msg = "猜小啦";
+        } else if(userNumber > randomNumber) {
+            msg = "猜大啦";
         }
         return msg;
     }
