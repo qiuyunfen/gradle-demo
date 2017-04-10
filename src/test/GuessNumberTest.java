@@ -1,3 +1,4 @@
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -51,5 +52,9 @@ public class GuessNumberTest {
     public void isExcessCountSmallTest() {
         boolean isExcessCount = guessNumber.isExcessCount(4);
         assertEquals(isExcessCount, false);
+    }
+    @After
+    public void setDown() {
+        guessNumber = null;
     }
 }

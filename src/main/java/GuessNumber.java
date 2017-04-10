@@ -46,7 +46,7 @@ public class GuessNumber {
             }
             boolean isExccessCount = guessNumber.isExcessCount(count);
             if(isExccessCount) {
-                System.out.println("你已经超过猜测次数");
+                System.out.println("你已经超过猜测次数，请再接再厉哦");
                 break;
             }
         }
